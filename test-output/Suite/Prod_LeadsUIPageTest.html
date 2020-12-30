@@ -1,0 +1,234 @@
+<html>
+<head>
+<title>TestNG:  Prod_LeadsUIPageTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Prod_LeadsUIPageTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>31/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 25 13:35:00 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>301 seconds (301159 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.ClickOnLead_Messages()'><b>ClickOnLead_Messages</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.ClickOnLeads_BatchSMS()'><b>ClickOnLeads_BatchSMS</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.ClickOnLeads_Campaigns()'><b>ClickOnLeads_Campaigns</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>4</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.ClickOnLeads_Manager()'><b>ClickOnLeads_Manager</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.GoToLeadsTab()'><b>GoToLeadsTab</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.VerifyLead_Messages()'><b>VerifyLead_Messages</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>13</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.VerifyLeads_BatchSMS()'><b>VerifyLeads_BatchSMS</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.VerifyLeads_Campaigns()'><b>VerifyLeads_Campaigns</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>6</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.VerifyLeads_Campaigns_Campaign_ActiveRules()'><b>VerifyLeads_Campaigns_Campaign_ActiveRules</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>7</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.VerifyLeads_Campaigns_Campaign_FormFields()'><b>VerifyLeads_Campaigns_Campaign_FormFields</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.VerifyLeads_Campaigns_Campaign_FormFieldsAvailableFields()'><b>VerifyLeads_Campaigns_Campaign_FormFieldsAvailableFields</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>4</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.VerifyLeads_Campaigns_ConfigureYourCampaign()'><b>VerifyLeads_Campaigns_ConfigureYourCampaign</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.VerifyLeads_Campaigns_ConfigureYourCampaign_Channel()'><b>VerifyLeads_Campaigns_ConfigureYourCampaign_Channel</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.VerifyLeads_Campaigns_ConfigureYourCampaign_Type()'><b>VerifyLeads_Campaigns_ConfigureYourCampaign_Type</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>4</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.VerifyLeads_Campaigns_SelectCampaigns_Options()'><b>VerifyLeads_Campaigns_SelectCampaigns_Options</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>11</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.VerifyLeads_ComposeMessage_ContainerBody()'><b>VerifyLeads_ComposeMessage_ContainerBody</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.VerifyLeads_ComposeMessage_ContainerBody_Edit()'><b>VerifyLeads_ComposeMessage_ContainerBody_Edit</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>36</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.VerifyLeads_ComposeMessage_ContainerBody_Files()'><b>VerifyLeads_ComposeMessage_ContainerBody_Files</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.VerifyLeads_ComposeMessage_ContainerBody_Format()'><b>VerifyLeads_ComposeMessage_ContainerBody_Format</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>33</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.VerifyLeads_ComposeMessage_ContainerBody_Insert()'><b>VerifyLeads_ComposeMessage_ContainerBody_Insert</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>36</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.VerifyLeads_ComposeMessage_ContainerBody_Table()'><b>VerifyLeads_ComposeMessage_ContainerBody_Table</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.VerifyLeads_ComposeMessage_ContainerBody_Tools()'><b>VerifyLeads_ComposeMessage_ContainerBody_Tools</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.VerifyLeads_ComposeMessage_ContainerBody_View()'><b>VerifyLeads_ComposeMessage_ContainerBody_View</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>33</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.VerifyLeads_ComposeMessage_CotainerBody()'><b>VerifyLeads_ComposeMessage_CotainerBody</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.VerifyLeads_ManagerTab()'><b>VerifyLeads_ManagerTab</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.VerifyLeads_Messages_ComposeMessages()'><b>VerifyLeads_Messages_ComposeMessages</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>4</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.VerifyLeads_Messages_ConfigureMessages()'><b>VerifyLeads_Messages_ConfigureMessages</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.VerifyLeads_Messages_ScheduleMessages()'><b>VerifyLeads_Messages_ScheduleMessages</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>4</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.VerifyLeads_SubscribersTab()'><b>VerifyLeads_SubscribersTab</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>6</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.VerifyLeads_Subscribers_AddNewSubscribers()'><b>VerifyLeads_Subscribers_AddNewSubscribers</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest.clickOnProd_DefaultLocationAndGeostixAutomation()'><b>clickOnProd_DefaultLocationAndGeostixAutomation</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest</td>
+<td></td>
+<td>32</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_LeadsUIPageTest@5ec0a365</td></tr>
+</table><p>
+</body>
+</html>

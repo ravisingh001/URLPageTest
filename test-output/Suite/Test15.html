@@ -1,0 +1,239 @@
+<html>
+<head>
+<title>TestNG:  Test15</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test15</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>32/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 17 14:28:25 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>128 seconds (128213 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.ClickOnAdmin_Downloads()'><b>ClickOnAdmin_Downloads</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.ClickOnDownloads()'><b>ClickOnDownloads</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.ClickOnFieldEditor()'><b>ClickOnFieldEditor</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.ClickOnFile_ScheduleTab()'><b>ClickOnFile_ScheduleTab</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>4</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.ClickOnFiles()'><b>ClickOnFiles</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>4</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.ClickOnHistory()'><b>ClickOnHistory</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.ClickOnRevert()'><b>ClickOnRevert</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.Files_ScheduleTabs()'><b>Files_ScheduleTabs</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.Files_UploadTabs()'><b>Files_UploadTabs</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>5</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.GotoFiles_Configuration()'><b>GotoFiles_Configuration</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.GotoFiles_DataCleansing()'><b>GotoFiles_DataCleansing</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.GotoFiles_DataCleansingHistory()'><b>GotoFiles_DataCleansingHistory</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.GotoFiles_FieldGroupEditor()'><b>GotoFiles_FieldGroupEditor</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.VerifyAdmin_DownloadsData()'><b>VerifyAdmin_DownloadsData</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>4</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.VerifyDownloadsData()'><b>VerifyDownloadsData</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>4</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.VerifyFieldEditor_basestorelocatorData()'><b>VerifyFieldEditor_basestorelocatorData</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>4</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.VerifyFieldEditor_basestorelocatorDiscription()'><b>VerifyFieldEditor_basestorelocatorDiscription</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.VerifyFieldEditor_basestorelocatorDiscriptionDetails()'><b>VerifyFieldEditor_basestorelocatorDiscriptionDetails</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.VerifyFiles_Configuration()'><b>VerifyFiles_Configuration</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.VerifyFiles_ConfigurationDetails()'><b>VerifyFiles_ConfigurationDetails</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>4</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.VerifyFiles_DataCleansing()'><b>VerifyFiles_DataCleansing</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.VerifyFiles_DataCleansingHistory()'><b>VerifyFiles_DataCleansingHistory</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>7</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.VerifyFiles_DataCleansing_FileSetUp()'><b>VerifyFiles_DataCleansing_FileSetUp</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.VerifyFiles_DataCleansing_Options()'><b>VerifyFiles_DataCleansing_Options</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.VerifyFiles_DataCleansing_Start()'><b>VerifyFiles_DataCleansing_Start</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.VerifyFiles_DataCleansing_Submit()'><b>VerifyFiles_DataCleansing_Submit</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.VerifyFiles_FieldGroupEditor()'><b>VerifyFiles_FieldGroupEditor</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.VerifyFiles_FieldGroupEditor_GroupNameDiscription()'><b>VerifyFiles_FieldGroupEditor_GroupNameDiscription</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.VerifyRevertTab()'><b>VerifyRevertTab</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.Verify_FieldEditorData()'><b>Verify_FieldEditorData</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.Verify_HistoryTabData()'><b>Verify_HistoryTabData</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+<tr>
+<td title='com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest.clickOnProd_DefaultLocationAndGeostixAutomation()'><b>clickOnProd_DefaultLocationAndGeostixAutomation</b><br>Test class: com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest</td>
+<td></td>
+<td>21</td>
+<td>com.qa.Prod_IgniteUIPageTestcases.Prod_FilesUIPageTest@5649fd9b</td></tr>
+</table><p>
+</body>
+</html>
