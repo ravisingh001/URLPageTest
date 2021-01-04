@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Prod_EtailerUIPageTest(failed)" parallel="methods">
+    <classes>
+      <class name="com.qa.Prod_IgniteUIPageTestcases.Prod_EtailerUIPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="VerifyEtailers_ProviderRankTab"/>
+          <include name="tearDown"/>
+          <include name="VerifyEtailers_StoreRankTab"/>
+          <include name="VerifyEtailers_ConfigurationTab"/>
+          <include name="clickOnProd_DefaultLocationAndGeostixAutomation"/>
+        </methods>
+      </class> <!-- com.qa.Prod_IgniteUIPageTestcases.Prod_EtailerUIPageTest -->
+    </classes>
+  </test> <!-- Prod_EtailerUIPageTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

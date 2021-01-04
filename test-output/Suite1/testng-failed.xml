@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test thread-count="5" name="Test2(failed)" parallel="methods">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.b1.qa.testcases.ReviewGUITest">
+        <methods>
+          <include name="selectAllPostingDate"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.b1.qa.testcases.ReviewGUITest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Test5(failed)" parallel="methods">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.b1.qa.testcases.LocationPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="VerifySEOData"/>
+          <include name="VerifyDetailsData"/>
+          <include name="VerifyOfferingsData"/>
+          <include name="VerifyCustomData"/>
+        </methods>
+      </class> <!-- com.b1.qa.testcases.LocationPageTest -->
+    </classes>
+  </test> <!-- Test5(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
