@@ -157,7 +157,8 @@
 					<version>2.20.1</version>
 					<configuration>
 					<forkCount>3</forkCount>
-    				<reuseForks>true</reuseForks>
+    				<reuseForks>false</reuseForks>
+					<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
 						<useSystemClassLoader>false</useSystemClassLoader>
 						<suiteXmlFiles>
 							<!-- <suiteXmlFile>src/test/Leads/Lead_Config1.xml</suiteXmlFile> -->
