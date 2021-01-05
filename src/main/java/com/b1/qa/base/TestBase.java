@@ -38,7 +38,7 @@ public class TestBase {
 		String browserName = prop.getProperty("browser");
 		
 		if (browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "/home/admin");
+			System.setProperty("webdriver.chrome.driver", "/home/admin/*.");
 			
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("window-size=1360,768");
