@@ -38,7 +38,7 @@ public class TestBase {
 		String browserName = prop.getProperty("browser");
 		
 		if (browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "/var/jenkins_home/workspace/Mirketa_WebCheck/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "/var/jenkins_home/workspace/Mirketa_WebCheck/URLPageTest/chromedriver.exe");
 			
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("window-size=1360,768");
