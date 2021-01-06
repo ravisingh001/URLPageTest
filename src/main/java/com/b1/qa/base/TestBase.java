@@ -24,7 +24,8 @@ public class TestBase {
 		try {
 			prop = new Properties();
 			FileInputStream ip = new FileInputStream(
-					"/var/jenkins_home/workspace/Mirketa_WebCheck/src/main/java/com/b1/qa/config/Config.properties");
+					"D:\\afdgdfg\\URLPageTest\\src\\main\\java\\com\\b1\\qa\\config\\Config.properties");
+					
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -38,7 +39,7 @@ public class TestBase {
 		String browserName = prop.getProperty("browser");
 		
 		if (browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "/home/admin/chromedriver");
+			System.setProperty("webdriver.chrome.driver", "D:\\afdgdfg\\URLPageTest\\src\\main\\java\\com\\b1\\qa\\resourceFiles\\chromedriver.exe");
 			
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("window-size=1360,768");
