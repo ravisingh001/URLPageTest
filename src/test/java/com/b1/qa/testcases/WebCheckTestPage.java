@@ -29,7 +29,7 @@ public class WebCheckTestPage extends TestBase {
 	public void VerifyMirketaWebPageAnd_BrokenLinks() throws Exception {
 		Thread.sleep(2000);
 		webCheck.VerifyMirketaWebPage();
-		driver.quit();
+		driver.close();
 		System.out.println("Mirketa WebPage is Closed successfully");
 	}
 
@@ -37,7 +37,7 @@ public class WebCheckTestPage extends TestBase {
 	public void VerifyElixireHRWebPageAnd_BrokenLinks() throws Exception {
 		Thread.sleep(3000);
 		webCheck.VerifyElixireHRWebPage();
-		driver.quit();
+		driver.close();
 		System.out.println("ElixireHR WebPage is Closed successfully");
 	}
 
