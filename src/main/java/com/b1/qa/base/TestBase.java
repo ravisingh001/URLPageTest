@@ -45,19 +45,19 @@ public class TestBase {
 			options.addArguments("window-size=1360,768");
 			//DesiredCapabilities cap = DesiredCapabilities.chrome();
 			
-			//cap.setCapability("chrome.binary", "D:\\MirketaURLs\\src\\main\\java\\com\\b1\\qa\\resourceFiles\\chromedriver.exe"); 
-			//cap.setCapability(ChromeOptions.CAPABILITY, options); 
+			cap.setCapability("chrome.binary", "D:\\afdgdfg\\URLPageTest\\src\\main\\java\\com\\b1\\qa\\resourceFiles\\chromedriver.exe"); 
+			cap.setCapability(ChromeOptions.CAPABILITY, options); 
 				
-			/*
-			 * options.setPageLoadStrategy(PageLoadStrategy.NONE);
-			 * options.addArguments("start-maximized");
-			 * options.addArguments("enable-automation");
-			 * options.addArguments("--no-sandbox");
-			 * options.addArguments("--disable-infobars");
-			 * options.addArguments("--disable-dev-shm-usage");
-			 * options.addArguments("--disable-browser-side-navigation");
-			 * options.addArguments("--disable-gpu");
-			 */
+			
+			  options.setPageLoadStrategy(PageLoadStrategy.NONE);
+			  options.addArguments("start-maximized");
+			  options.addArguments("enable-automation");
+			  options.addArguments("--no-sandbox");
+			  options.addArguments("--disable-infobars");
+			  options.addArguments("--disable-dev-shm-usage");
+				options.addArguments("--disable-browser-side-navigation");
+			 options.addArguments("--disable-gpu");
+			 
 	        driver = (WebDriver) new ChromeDriver(options);
 	}
 
