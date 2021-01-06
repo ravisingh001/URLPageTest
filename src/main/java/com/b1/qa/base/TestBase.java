@@ -48,7 +48,7 @@ public class TestBase {
 			options.addArguments("window-size=1360,768");
 			DesiredCapabilities cap = DesiredCapabilities.chrome();
 			
-			cap.setCapability("chrome.binary", "D:\\afdgdfg\\URLPageTest\\src\\main\\java\\com\\b1\\qa\\resourceFiles\\chromedriver.exe"); 
+			cap.setCapability("chrome.binary", "C:\\Program Files (x86)\\Google\\chromedriver.exe"); 
 			cap.setCapability(ChromeOptions.CAPABILITY, options); 
 				
 			
