@@ -43,20 +43,20 @@ public class TestBase {
 			
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("window-size=1360,768");
-			DesiredCapabilities cap = DesiredCapabilities.chrome();
+			//DesiredCapabilities cap = DesiredCapabilities.chrome();
 			
-			cap.setCapability("chrome.binary", "D:\\afdgdfg\\URLPageTest\\src\\main\\java\\com\\b1\\qa\\resourceFiles\\chromedriver.exe"); 
-			cap.setCapability(ChromeOptions.CAPABILITY, options); 
+			//cap.setCapability("chrome.binary", "D:\\afdgdfg\\URLPageTest\\src\\main\\java\\com\\b1\\qa\\resourceFiles\\chromedriver.exe"); 
+			//cap.setCapability(ChromeOptions.CAPABILITY, options); 
 				
 			
-			  options.setPageLoadStrategy(PageLoadStrategy.NONE);
-			  options.addArguments("start-maximized");
-			  options.addArguments("enable-automation");
-			  options.addArguments("--no-sandbox");
-			  options.addArguments("--disable-infobars");
-			  options.addArguments("--disable-dev-shm-usage");
-				options.addArguments("--disable-browser-side-navigation");
-			 options.addArguments("--disable-gpu");
+			 // options.setPageLoadStrategy(PageLoadStrategy.NONE);
+			  //options.addArguments("start-maximized");
+			  //options.addArguments("enable-automation");
+			 // options.addArguments("--no-sandbox");
+			 // options.addArguments("--disable-infobars");
+			 // options.addArguments("--disable-dev-shm-usage");
+				//options.addArguments("--disable-browser-side-navigation");
+			// options.addArguments("--disable-gpu");
 			 
 	        driver = (WebDriver) new ChromeDriver(options);
 	}
@@ -66,11 +66,6 @@ public class TestBase {
 	
 		  driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		  driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		 
-
-		  //driver.get(prop.getProperty("Url"));
-		  //driver.get("https://ignite.where2stageit.com/login.html");
-		//driver.get("https://ignite.where2getit.com/login.html");
 	}
 	}
 
