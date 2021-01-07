@@ -27,7 +27,7 @@ public class TestBase {
 		try {
 			prop = new Properties();
 			FileInputStream ip = new FileInputStream(
-					"D:\\afdgdfg\\URLPageTest\\src\\main\\java\\com\\b1\\qa\\config\\Config.properties");
+					"/var/jenkins_home/workspace/Mirketa_WebCheck/src/main/java/com/b1/qa/config/Config.properties");
 					
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
