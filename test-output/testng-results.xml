@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="374615" started-at="2021-01-06T17:13:08 IST" finished-at="2021-01-06T17:19:23 IST">
+  <suite name="Default suite" duration-ms="54023" started-at="2021-01-07T10:04:04 IST" finished-at="2021-01-07T10:04:58 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="374615" started-at="2021-01-06T17:13:08 IST" finished-at="2021-01-06T17:19:23 IST">
+    <test name="Default test" duration-ms="54023" started-at="2021-01-07T10:04:04 IST" finished-at="2021-01-07T10:04:58 IST">
       <class name="com.b1.qa.testcases.WebCheckTestPage">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.b1.qa.testcases.WebCheckTestPage@600b0b7]" name="setUp" is-config="true" duration-ms="6147" started-at="2021-01-06T17:13:08 IST" finished-at="2021-01-06T17:13:15 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.b1.qa.testcases.WebCheckTestPage@c41709a]" name="setUp" is-config="true" duration-ms="6000" started-at="2021-01-07T10:04:04 IST" finished-at="2021-01-07T10:04:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifyMirketaWebPageAnd_BrokenLinks()[pri:1, instance:com.b1.qa.testcases.WebCheckTestPage@600b0b7]" name="VerifyMirketaWebPageAnd_BrokenLinks" duration-ms="169184" started-at="2021-01-06T17:13:15 IST" finished-at="2021-01-06T17:16:04 IST">
+        <test-method status="PASS" signature="VerifyMirketaWebPageAnd_BrokenLinks()[pri:1, instance:com.b1.qa.testcases.WebCheckTestPage@c41709a]" name="VerifyMirketaWebPageAnd_BrokenLinks" duration-ms="12163" started-at="2021-01-07T10:04:10 IST" finished-at="2021-01-07T10:04:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyMirketaWebPageAnd_BrokenLinks -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.b1.qa.testcases.WebCheckTestPage@600b0b7]" name="setUp" is-config="true" duration-ms="5228" started-at="2021-01-06T17:16:04 IST" finished-at="2021-01-06T17:16:09 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.b1.qa.testcases.WebCheckTestPage@c41709a]" name="setUp" is-config="true" duration-ms="5240" started-at="2021-01-07T10:04:22 IST" finished-at="2021-01-07T10:04:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifyElixireHRWebPageAnd_BrokenLinks()[pri:2, instance:com.b1.qa.testcases.WebCheckTestPage@600b0b7]" name="VerifyElixireHRWebPageAnd_BrokenLinks" duration-ms="115061" started-at="2021-01-06T17:16:09 IST" finished-at="2021-01-06T17:18:04 IST">
+        <test-method status="PASS" signature="VerifyElixireHRWebPageAnd_BrokenLinks()[pri:2, instance:com.b1.qa.testcases.WebCheckTestPage@c41709a]" name="VerifyElixireHRWebPageAnd_BrokenLinks" duration-ms="10645" started-at="2021-01-07T10:04:27 IST" finished-at="2021-01-07T10:04:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyElixireHRWebPageAnd_BrokenLinks -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.b1.qa.testcases.WebCheckTestPage@600b0b7]" name="setUp" is-config="true" duration-ms="5301" started-at="2021-01-06T17:18:04 IST" finished-at="2021-01-06T17:18:09 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.b1.qa.testcases.WebCheckTestPage@c41709a]" name="setUp" is-config="true" duration-ms="5244" started-at="2021-01-07T10:04:38 IST" finished-at="2021-01-07T10:04:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifyRoundRobinDistributorWebPageAnd_BrokenLinks()[pri:3, instance:com.b1.qa.testcases.WebCheckTestPage@600b0b7]" name="VerifyRoundRobinDistributorWebPageAnd_BrokenLinks" duration-ms="71571" started-at="2021-01-06T17:18:09 IST" finished-at="2021-01-06T17:19:21 IST">
+        <test-method status="PASS" signature="VerifyRoundRobinDistributorWebPageAnd_BrokenLinks()[pri:3, instance:com.b1.qa.testcases.WebCheckTestPage@c41709a]" name="VerifyRoundRobinDistributorWebPageAnd_BrokenLinks" duration-ms="14278" started-at="2021-01-07T10:04:43 IST" finished-at="2021-01-07T10:04:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyRoundRobinDistributorWebPageAnd_BrokenLinks -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.b1.qa.testcases.WebCheckTestPage@600b0b7]" name="tearDown" is-config="true" duration-ms="1931" started-at="2021-01-06T17:19:21 IST" finished-at="2021-01-06T17:19:23 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.b1.qa.testcases.WebCheckTestPage@c41709a]" name="tearDown" is-config="true" duration-ms="210" started-at="2021-01-07T10:04:57 IST" finished-at="2021-01-07T10:04:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

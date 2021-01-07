@@ -48,8 +48,10 @@ public class WebCheckTestPage extends TestBase {
 		System.out.println("Round Robin Distributor WebPage is Closed successfully");
 	}
 
-	@AfterClass(alwaysRun = true)
-	public void tearDown() {
-		driver.quit();
-	}
+	
+	  @AfterClass(alwaysRun = true) 
+	  public void tearDown() { 
+		  driver.close();
+		  //driver.quit(); 
+		  }
 }
