@@ -48,8 +48,8 @@ public class TestBase {
 		
 			  options.addArguments("window-size=1360,768"); 
 			  
-			 // DesiredCapabilities cap = DesiredCapabilities.chrome(); 
-			  //options.setBinary("C:\\Users\\Rai Sigh\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"); 
+			  //DesiredCapabilities cap = DesiredCapabilities.chrome(); 
+			 options.setBinary("/opt/google/chrome/google-chrome"); 
 			  //options.setCapability("chrome.binary","C:\\Program Files (x86)\\Google\\chrome.exe");
 			 // cap.setCapability(ChromeOptions.CAPABILITY, options);
 			  
@@ -62,6 +62,9 @@ public class TestBase {
 			  options.addArguments("--disable-dev-shm-usage");
 			  options.addArguments("--disable-browser-side-navigation");
 			  options.addArguments("--disable-gpu");
+			  
+			  
+			
 			 // options.addArguments("--no-sandbox", "--disable-dev-shm-usage");
 	        driver = (WebDriver) new ChromeDriver(options);
 	}
