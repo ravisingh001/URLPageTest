@@ -45,13 +45,15 @@ public class TestBase {
 			System.setProperty("webdriver.chrome.driver", "/var/lib/jenkins/workspace/Mirketa_WebCheck/Documents/chromedriver");
 			
 			ChromeOptions options = new ChromeOptions();
-			
+		
 			  options.addArguments("window-size=1360,768"); 
-			  DesiredCapabilities cap = DesiredCapabilities.chrome(); 
+			  
+			 // DesiredCapabilities cap = DesiredCapabilities.chrome(); 
 			  //options.setBinary("C:\\Users\\Rai Sigh\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe"); 
 			  //options.setCapability("chrome.binary","C:\\Program Files (x86)\\Google\\chrome.exe");
-			  cap.setCapability(ChromeOptions.CAPABILITY, options);
-			  options.setExperimentalOption("useAutomationExtension", false);
+			 // cap.setCapability(ChromeOptions.CAPABILITY, options);
+			  
+			  //options.setExperimentalOption("useAutomationExtension", false);
 			  options.setPageLoadStrategy(PageLoadStrategy.NONE);
 			  options.addArguments("start-maximized");
 			  options.addArguments("enable-automation");
@@ -60,8 +62,7 @@ public class TestBase {
 			  options.addArguments("--disable-dev-shm-usage");
 			  options.addArguments("--disable-browser-side-navigation");
 			  options.addArguments("--disable-gpu");
-			 
-			 
+			 // options.addArguments("--no-sandbox", "--disable-dev-shm-usage");
 	        driver = (WebDriver) new ChromeDriver(options);
 	}
 
