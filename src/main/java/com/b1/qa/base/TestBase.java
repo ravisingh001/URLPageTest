@@ -46,25 +46,37 @@ public class TestBase {
 			
 			ChromeOptions options = new ChromeOptions();
 		
-			  options.addArguments("window-size=1360,768"); 
-			  
-			  //DesiredCapabilities cap = DesiredCapabilities.chrome(); 
-			  options.setBinary("/usr/bin/google-chrome"); 
+			 
+			 options.setBinary("/usr/bin/google-chrome"); 
+			  DesiredCapabilities cap = DesiredCapabilities.chrome(); 
+			 
 			  //options.setCapability("chrome.binary","C:\\Program Files (x86)\\Google\\chrome.exe");
 			 // cap.setCapability(ChromeOptions.CAPABILITY, options);
+			  options.addArguments("window-size=1360,768"); 
+			  //options.addArguments("--no-sandbox");
+			//  options.setExperimentalOption("useAutomationExtension", false);
 			  
-			  //options.setExperimentalOption("useAutomationExtension", false);
-			  options.setPageLoadStrategy(PageLoadStrategy.NONE);
-			  options.addArguments("start-maximized");
-			  options.addArguments("enable-automation");
-			  options.addArguments("--no-sandbox");
-			  options.addArguments("--disable-infobars");
-			  options.addArguments("--disable-dev-shm-usage");
-			  options.addArguments("--disable-browser-side-navigation");
-			  options.addArguments("--disable-gpu");
+			 // options.setPageLoadStrategy(PageLoadStrategy.NONE);
+			 // options.addArguments("start-maximized");
+			 // options.addArguments("enable-automation");
+			 // options.addArguments("--no-sandbox");
+			 // options.addArguments("--disable-infobars");
+			  //options.addArguments("--disable-dev-shm-usage");
+			  //options.addArguments("--disable-browser-side-navigation");
+			 // options.addArguments("--disable-gpu");
 			  
 			  
-			
+			  
+			  
+			  options.addArguments("--no-sandbox"); // Bypass OS security model, MUST BE THE VERY FIRST OPTION
+		        options.addArguments("--headless");
+		        options.addArguments("--disable-dev-shm-usage");
+		        options.setExperimentalOption("useAutomationExtension", false);
+		        options.addArguments("start-maximized"); // open Browser in maximized mode
+		        options.addArguments("disable-infobars"); // disabling infobars
+		        options.addArguments("--disable-extensions"); // disabling extensions
+		        options.addArguments("--disable-gpu"); // applicable to windows os only
+		        options.merge(cap);
 			 // options.addArguments("--no-sandbox", "--disable-dev-shm-usage");
 	        driver = (WebDriver) new ChromeDriver(options);
 	}
