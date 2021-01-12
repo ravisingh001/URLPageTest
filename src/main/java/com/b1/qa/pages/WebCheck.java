@@ -125,26 +125,26 @@ public class WebCheck extends TestBase {
 
 		// ++++++++++++++++++++++++++++++++++++TO Verify the Broken Links on Mirketa WebPage++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-		/*
-		 * List<WebElement> links = driver.findElements(By.tagName("a"));
-		 * 
-		 * System.out.println("Total links are " + links.size());
-		 * System.out.printf("%n"); for (int i = 0; i < links.size(); i++) {
-		 * 
-		 * WebElement ele = links.get(i);
-		 * 
-		 * String url = ele.getAttribute("href");
-		 * 
-		 * verifyLinkActive(url);
-		 * 
-		 * }
-		 */
-		/*
-		 * ((JavascriptExecutor)driver).executeScript("window.open()");
-		 * ArrayList<String> tabs2 = new ArrayList<String> (driver.getWindowHandles());
-		 * driver.switchTo().window(tabs2.get(1)); Thread.sleep(3000);
-		 * driver.get("https://www.elixirehr.com/");
-		 */
+		
+		  List<WebElement> links = driver.findElements(By.tagName("a"));
+		  
+		  System.out.println("Total links are " + links.size());
+		  System.out.printf("%n"); for (int i = 0; i < links.size(); i++) {
+		  
+		  WebElement ele = links.get(i);
+		  
+		  String url = ele.getAttribute("href");
+		  
+		  verifyLinkActive(url);
+		  
+		  }
+		 
+		
+		  ((JavascriptExecutor)driver).executeScript("window.open()");
+		  ArrayList<String> tabs2 = new ArrayList<String> (driver.getWindowHandles());
+		  driver.switchTo().window(tabs2.get(1)); Thread.sleep(3000);
+		  driver.get("https://www.elixirehr.com/");
+		 
 	}
 
 	public static void verifyLinkActive(String linkUrl) {
@@ -248,7 +248,7 @@ public class WebCheck extends TestBase {
 
 		// ++++++++++++++++++++++++++++++++++++TO Verify the Broken Links on ElixirEHR++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-		/*List<WebElement> links = driver.findElements(By.tagName("a"));
+		List<WebElement> links = driver.findElements(By.tagName("a"));
 
 		System.out.println("Total links are " + links.size());
 		System.out.printf("%n");
@@ -261,10 +261,7 @@ public class WebCheck extends TestBase {
 			verifyLinkActiveOnElixir(url);
 
 		}
-		ArrayList<String> tabs3 = new ArrayList<String> (driver.getWindowHandles());
-	    driver.switchTo().window(tabs3.get(2));
-	    Thread.sleep(3000);
-	}*/
+		
 	}
 	public static void verifyLinkActiveOnElixir(String linkUrl) {
 		try {
@@ -382,20 +379,20 @@ public class WebCheck extends TestBase {
 
 		// ++++++++++++++++++++++++++++++++++++TO Verify the Broken Links on RRD++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-		/*
-		 * List<WebElement> links = driver.findElements(By.tagName("a"));
-		 * 
-		 * System.out.println("Total links are " + links.size());
-		 * System.out.printf("%n"); for (int i = 0; i < links.size(); i++) {
-		 * 
-		 * WebElement ele = links.get(i);
-		 * 
-		 * String url = ele.getAttribute("href");
-		 * 
-		 * verifyLinkActiveOnRoundRobinDistributor(url);
-		 * 
-		 * }
-		 */
+		
+		  List<WebElement> links = driver.findElements(By.tagName("a"));
+		  
+		  System.out.println("Total links are " + links.size());
+		  System.out.printf("%n"); for (int i = 0; i < links.size(); i++) {
+		  
+		  WebElement ele = links.get(i);
+		  
+		  String url = ele.getAttribute("href");
+		  
+		  verifyLinkActiveOnRoundRobinDistributor(url);
+		  
+		  }
+		 
 	}
 
 	public static void verifyLinkActiveOnRoundRobinDistributor(String linkUrl) {

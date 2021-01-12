@@ -6,8 +6,6 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -48,7 +46,7 @@ public class TestBase {
 		
 			 
 			 options.setBinary("/usr/bin/google-chrome"); 
-			  DesiredCapabilities cap = DesiredCapabilities.chrome(); 
+			 DesiredCapabilities cap = DesiredCapabilities.chrome(); 
 			 
 			  //options.setCapability("chrome.binary","C:\\Program Files (x86)\\Google\\chrome.exe");
 			 // cap.setCapability(ChromeOptions.CAPABILITY, options);
@@ -68,7 +66,7 @@ public class TestBase {
 			  
 			  
 			  
-			  options.addArguments("--no-sandbox"); // Bypass OS security model, MUST BE THE VERY FIRST OPTION
+			  	options.addArguments("--no-sandbox"); // Bypass OS security model, MUST BE THE VERY FIRST OPTION
 		        options.addArguments("--headless");
 		        options.addArguments("--disable-dev-shm-usage");
 		        options.setExperimentalOption("useAutomationExtension", false);
