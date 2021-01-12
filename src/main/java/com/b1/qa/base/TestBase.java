@@ -49,7 +49,7 @@ public class TestBase {
 			  options.addArguments("window-size=1360,768"); 
 			  
 			  //DesiredCapabilities cap = DesiredCapabilities.chrome(); 
-			 options.setBinary("/opt/google/chrome/google-chrome"); 
+			// options.setBinary("/opt/google/chrome/google-chrome"); 
 			  //options.setCapability("chrome.binary","C:\\Program Files (x86)\\Google\\chrome.exe");
 			 // cap.setCapability(ChromeOptions.CAPABILITY, options);
 			  
