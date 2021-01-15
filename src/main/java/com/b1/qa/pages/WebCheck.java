@@ -36,7 +36,7 @@ public class WebCheck extends TestBase {
 		Thread.sleep(5000);
 		String URl = driver.getCurrentUrl();
 		System.out.println(URl);
-		Assert.assertEquals(URl, "https://www.mirketa.com/");
+		Assert.assertEquals(URl, "https://www.mirketa.com/123");
 		System.out.println("Mirketa WebPage is Loading Successfully");
 		System.out.printf("%n");
 		// driver.switchTo().frame(1);
@@ -173,7 +173,7 @@ public class WebCheck extends TestBase {
 		Thread.sleep(5000);
 		String URl = driver.getCurrentUrl();
 		System.out.println(URl);
-		Assert.assertEquals(URl, "https://www.elixirehr.com/");
+		Assert.assertEquals(URl, "https://www.elixirehr.com/123");
 		System.out.println("ElixireHR WebPage is Loading Successfully");
 		System.out.printf("%n");
 		WebElement Elixirehr_logo = driver.findElement(By.xpath("(//a/img[@src='https://elixirehr.com/wp-content/uploads/2020/08/elixir-logo.png'])[1]"));
@@ -293,7 +293,7 @@ public class WebCheck extends TestBase {
 		Thread.sleep(7000);
 		String URl = driver.getCurrentUrl();
 		System.out.println(URl);
-		Assert.assertEquals(URl, "https://www.roundrobindistributor.com/");
+		Assert.assertEquals(URl, "https://www.roundrobindistributor.com/123");
 		System.out.println("Round Robin Distributor WebPage is Loading Successfully");
 		System.out.printf("%n");
 		WebElement RRD_logo = driver.findElement(By.xpath("(//a/img[@src='https://www.roundrobindistributor.com/wp-content/uploads/2020/08/rrd_svg_newlogo.svg'])[1]"));
